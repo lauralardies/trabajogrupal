@@ -23,7 +23,14 @@ def calificandoEstudiantes(calificaciones):
             calificaciones_redondeadas.append(calificaciones[i])
     return calificaciones_redondeadas
 
-calificaciones = [22, 87, 54, 66, 95, 99]
+calificaciones = []
+c = int(input("Introduce el número de calificaciones que has evaluado: "))
+# Si hay cinco calificaciones, introduces el número 5 y después de darle al Enter introduces una a una las calificaciones sobre 100.
+
+for i in range (c):
+    n = int(input())
+    calificaciones.append(n)
+
 calificaciones_redondeadas = []
 calificandoEstudiantes(calificaciones)
 print("Las calificaciones de los estudiantes han sido las siguientes: " + str(calificaciones))
