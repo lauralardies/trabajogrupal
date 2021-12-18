@@ -284,3 +284,4 @@ print("Las calificaciones de los estudiantes han sido las siguientes: " + str(ca
 print("Las calificaciones redondeadas de los estudiantes son las siguientes: " + str(calificaciones_redondeadas))
 ```
 Ejercicio 8. Manzana y Naranja.
+Con la funcion countapplesandorangescontamos el numero de naranjas y manzanas que caen en la casa de Sam, sabiendo la distancia de los arboles a las casa y cuanto se desplazan las frutas
