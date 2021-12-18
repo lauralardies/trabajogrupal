@@ -1,4 +1,5 @@
 def calificandoEstudiantes(calificaciones):
+    calificaciones_redondeadas = []
     for i in range(len(calificaciones)):
         if calificaciones[i] > 40:
             x = [int(n) for n in str(calificaciones[i])]
@@ -31,7 +32,6 @@ for i in range (c):
     n = int(input())
     calificaciones.append(n)
 
-calificaciones_redondeadas = []
-calificandoEstudiantes(calificaciones)
+calificaciones_redondeadas = calificandoEstudiantes(calificaciones)
 print("Las calificaciones de los estudiantes han sido las siguientes: " + str(calificaciones))
 print("Las calificaciones redondeadas de los estudiantes son las siguientes: " + str(calificaciones_redondeadas))
