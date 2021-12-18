@@ -73,7 +73,7 @@ if lucia1+lucia2+lucia3>carlos1+carlos2+carlos3:
     print("la ganadora ha sido lucia")
 if lucia1+lucia2+lucia3==carlos1+carlos2+carlos3:
     print("el juego ha acabado en empate")
-    ```
+```
     
 Ejercicio 3: Una suma muy grande.
 Calcular e imprimir la suma de los elementos en una matriz, teniendo en cuenta que algunos de esos números enteros pueden ser bastante grandes.
