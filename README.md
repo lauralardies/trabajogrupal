@@ -8,6 +8,22 @@ Para este trabajo hemos realizado 8 programas distintos.
 Ejercicio 1: Suma simple de una matriz.
 Usamos la funcion simpleArraySum para obtener la suma de los todos los elementos de una matriz, que ademas tienen que ser valores enteros.
 ```
+import math
+import re
+import sys
+import os
+import random
+def simplearraysum(ar):
+    suma=0
+    for number in ar:
+        suma=suma+number
+    return suma
+n=int(input("por favor introduce la lista de dimensiones de la matriz: "))
+print("por favor introduce una lista de numeros", end="")
+ar=list(map(int,input().rstrip().split()))
+print(ar)
+resultado=simplearraysum(ar)
+print("el valor de la suma es: ", resultado)
 Ejercicio 2: Compara los problemas.
 Se comparan las puntuaciones obtenidas en 3 apartados entre Lucia y Carlos, el que obtenga mas puntuacion en algun apartado gana una punto. Gana el que mas puntos tenga
 ```
