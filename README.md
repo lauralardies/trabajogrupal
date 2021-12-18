@@ -84,6 +84,12 @@ escalera(n)
 Ejercicio 5: Juego de piedras.
 Dos jugadores tienen que eliminar de forma que el jugador que no pueda eliminar en algun turno pierde, en cada turno se pueden eliminar 2, 3 o 5 piedras.
 ```
+for i in range(0,int(input())):
+    piedras=int(input())
+    if piedras%7<2:
+        print("second")
+    else:
+        print("first")
 Ejercicio 6: Rana en laberinto.
 Escribir un programa que calcule e imprima una probabilidad de que Alef escape del laberinto.
 ```
