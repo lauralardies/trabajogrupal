@@ -6,7 +6,7 @@ https://github.com/lauralardies/trabajogrupal
 Para este trabajo hemos realizado 8 programas distintos.
 
 Ejercicio 1: Suma simple de una matriz.
-
+Usamos la funcion simpleArraySum para obtener la suma de los todos los elementos de una matriz, que ademas tienen que ser valores enteros.
 Ejercicio 2: Compara los problemas.
 
 Ejercicio 3: Una suma muy grande.
