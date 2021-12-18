@@ -7,7 +7,9 @@ Para este trabajo hemos realizado 8 programas distintos.
 
 Ejercicio 1: Suma simple de una matriz.
 Usamos la funcion simpleArraySum para obtener la suma de los todos los elementos de una matriz, que ademas tienen que ser valores enteros.
+
 Ejercicio 2: Compara los problemas.
+Se comparan las puntuaciones obtenidas en 3 apartados entre Lucia y Carlos, el que obtenga mas puntuacion en algun apartado gana una punto. Gana el que mas puntos tenga
 
 Ejercicio 3: Una suma muy grande.
 Calcular e imprimir la suma de los elementos en una matriz, teniendo en cuenta que algunos de esos números enteros pueden ser bastante grandes.
@@ -34,6 +36,7 @@ n = int(input("¿De qué tamaño quieres que sea tu escalera?: "))
 escalera(n)
 ```
 Ejercicio 5: Juego de piedras.
+Dos jugadores tienen que eliminar de forma que el jugador que no pueda eliminar en algun turno pierde, en cada turno se pueden eliminar 2, 3 o 5 piedras.
 
 Ejercicio 6: Rana en laberinto.
 Escribir un programa que calcule e imprima una probabilidad de que Alef escape del laberinto.
