@@ -7,8 +7,7 @@ Para este trabajo hemos realizado 8 programas distintos.
 
 Ejercicio 1: Suma simple de una matriz.
 Usamos la funcion simpleArraySum para obtener la suma de los todos los elementos de una matriz, que ademas tienen que ser valores enteros.
-```
-import math
+```import math
 import re
 import sys
 import os
@@ -24,10 +23,11 @@ ar=list(map(int,input().rstrip().split()))
 print(ar)
 resultado=simplearraysum(ar)
 print("el valor de la suma es: ", resultado)
+
+
 Ejercicio 2: Compara los problemas.
 Se comparan las puntuaciones obtenidas en 3 apartados entre Lucia y Carlos, el que obtenga mas puntuacion en algun apartado gana una punto. Gana el que mas puntos tenga
-```
-import math
+```import math
 from random import randint
 lucia1=randint(0,10)
 lucia2=randint(0,10)
@@ -73,10 +73,11 @@ if lucia1+lucia2+lucia3>carlos1+carlos2+carlos3:
     print("la ganadora ha sido lucia")
 if lucia1+lucia2+lucia3==carlos1+carlos2+carlos3:
     print("el juego ha acabado en empate")
+    
+    
 Ejercicio 3: Una suma muy grande.
 Calcular e imprimir la suma de los elementos en una matriz, teniendo en cuenta que algunos de esos números enteros pueden ser bastante grandes.
-```
-def sumaGrande(ar):
+```def sumaGrande(ar):
     sum = 0
     for i in range(len(ar)):
         sum = sum + ar[i]
