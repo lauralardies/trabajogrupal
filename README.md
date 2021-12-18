@@ -73,7 +73,7 @@ if lucia1+lucia2+lucia3>carlos1+carlos2+carlos3:
     print("la ganadora ha sido lucia")
 if lucia1+lucia2+lucia3==carlos1+carlos2+carlos3:
     print("el juego ha acabado en empate")
-    
+    ```
     
 Ejercicio 3: Una suma muy grande.
 Calcular e imprimir la suma de los elementos en una matriz, teniendo en cuenta que algunos de esos números enteros pueden ser bastante grandes.
@@ -87,7 +87,7 @@ ar = [164318575843289072592317093673840167348146313258578542, 672395619453677043
 sum = sumaGrande(ar)
 sum = f'{sum:,}'
 print("The sum of all the elements of this array is: " + str(sum))
-
+```
 
 Ejercicio 4: La escalera.
 Imprimir una escalera de tamaño n.
@@ -97,7 +97,7 @@ Imprimir una escalera de tamaño n.
 
 n = int(input("¿De qué tamaño quieres que sea tu escalera?: "))
 escalera(n)
-
+```
 
 Ejercicio 5: Juego de piedras.
 Dos jugadores tienen que eliminar de forma que el jugador que no pueda eliminar en algun turno pierde, en cada turno se pueden eliminar 2, 3 o 5 piedras.
@@ -107,7 +107,7 @@ Dos jugadores tienen que eliminar de forma que el jugador que no pueda eliminar 
         print("second")
     else:
         print("first")
-        
+```        
         
 Ejercicio 6: Rana en laberinto.
 Escribir un programa que calcule e imprima una probabilidad de que Alef escape del laberinto.
@@ -311,7 +311,7 @@ for i in range(100000):
 
 probabilidad = resultado/100000
 print("La probabilidad de que Alef escape de este laberinto es de " + str(probabilidad) + ".")
-
+```
 
 Ejercicio 7: Estudiantes de calificación.
 Dado el valor inicial de la nota para cada uno de los n estudiantes, escriban código para automatizar el proceso de redondeo.
@@ -352,7 +352,7 @@ for i in range (c):
 calificaciones_redondeadas = calificandoEstudiantes(calificaciones)
 print("Las calificaciones de los estudiantes han sido las siguientes: " + str(calificaciones))
 print("Las calificaciones redondeadas de los estudiantes son las siguientes: " + str(calificaciones_redondeadas))
-
+```
 
 Ejercicio 8. Manzana y Naranja.
 Con la funcion countapplesandorangescontamos el numero de naranjas y manzanas que caen en la casa de Sam, sabiendo la distancia de los arboles a las casa y cuanto se desplazan las frutas
@@ -384,4 +384,4 @@ def countapplesandoranges(s, t, a, b, manzanas, naranjas):
         manzanas= list(map(int, input().rstrip().split()))
         naranjas= list(map(int, input().rstrip().split()))
         countapplesandoranges(s, t, a, b, manzanas, naranjas)
-
+```
