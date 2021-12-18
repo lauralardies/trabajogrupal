@@ -23,7 +23,7 @@ ar=list(map(int,input().rstrip().split()))
 print(ar)
 resultado=simplearraysum(ar)
 print("el valor de la suma es: ", resultado)
-
+```
 
 Ejercicio 2: Compara los problemas.
 Se comparan las puntuaciones obtenidas en 3 apartados entre Lucia y Carlos, el que obtenga mas puntuacion en algun apartado gana una punto. Gana el que mas puntos tenga
